@@ -27,7 +27,7 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <h1>Simulador de Subsídio de Doença</h1>
+      <h1>Calculadora Subsídio de Doença</h1>
       <form onSubmit={handleSubmit} id="simulador-form">
         <label>
           Remuneração bruta total dos últimos 6 meses (€):

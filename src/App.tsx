@@ -1,6 +1,6 @@
 import React, { useState, FormEvent } from "react";
 import "./style.css";
-import { calcularSubsidioBaixa, DoencaTipo } from "./api"; // Assuming you have a separate CSS file
+import { calcularSubsidioBaixa, DoencaTipo } from "./api";
 
 const App: React.FC = () => {
   const [remuneracao, setRemuneracao] = useState<string>("");
